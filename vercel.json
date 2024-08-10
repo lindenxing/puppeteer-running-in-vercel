@@ -17,5 +17,6 @@
     }
   ],
   "outputDirectory": ".next/build",
-  "regions": ["lhr1"]
+  "regions": ["lhr1"],
+  "functions": {"api/*": {"maxDuration": 60}}
 }
